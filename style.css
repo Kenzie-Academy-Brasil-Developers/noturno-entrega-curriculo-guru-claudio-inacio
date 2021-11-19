@@ -12,16 +12,30 @@ body{
 	min-width: 400px;
 	margin: auto;
 	background-color: #f3f3f3;
-	font-family: 'Lato';
+	font-family:  'lato', Arial, Helvetica, sans-serif;
+	overflow-x: auto;
 }
 #unico{
 	padding-top: 0px;
+	margin-left: -20px;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #cf8a05;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
 }
 h1{
-	padding-top: 10px;
+	padding-top: 5px;
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+	color: #181818;
 }
 h2{
-	font-family: 'Rokkitt';
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+	color: #181818;
+	font-weight: none;
+;
 }
 /*configurando o meu menu*/
 img{
@@ -34,8 +48,8 @@ img{
 }
 #name{
 	display: inline-block;
-	margin-left: 10px;
-	margin-top: 80px;
+	margin-left: 20px;
+	margin-top: 75px;
 	float: left;
 }
 #contactDetails{
@@ -49,6 +63,10 @@ img{
 	border-bottom: #cf8a05 solid 2px;
 	width: 80%;
 	margin: auto;
+}
+.mainDetails > #name > h2{
+	font-weight: normal;
+	
 }
 #contactDetails a {
 	color: black;
@@ -76,23 +94,28 @@ img{
 /*configuração da minha main area ou area principal*/
 
 #mainArea{
-	
+	margin: auto;
 	padding-top: 20px ;
 	padding-left: 70px;
+	overflow-x: auto;
 }
 
 #primeiro  p{
 	padding-bottom: 15px;
+	display: inline-block;
+	padding-left: 15px;
 
 }
-
+#primeiro{
+	padding-left: 0;
+}
 .sectionTitle {
 	float: left;
 	width: 35%;
 	font-size: 17px;
-	font-weight: normal;
 	padding-left: 38px;
-	color: #cf8a05;
+	
+	
 	
 }
 .sectionTitleG > h1{
@@ -100,15 +123,18 @@ img{
 	padding-left: 38px;
 	color: #cf8a05;
 	font-weight: normal;
+	font-style: italic;
+	display: inline-block;
 }
 
 .sectionContent {
 	float: right;
+	
 	width: 64.5%;
 	font-size: 15px;
-	
-	margin: 0;
-	padding: 0;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: ;
 	
 }
  .subDetails{
@@ -116,12 +142,14 @@ img{
 	padding: 0px;
 	font-style: italic;
 	font-size: 12px;
-	
+	color: #444444;
 }
 .sectionContent  p{
 	
 	margin-left: -55px;
 	width: 423px;
+	overflow-x: auto;
+	color: #444444;
 }
 
 .sectionContent h2{
@@ -131,9 +159,12 @@ img{
 	font-weight: normal;
 	
 }
+article{
+	padding-left: 30px;
+}
 section{
 	border-bottom: #dedede solid 2px ;
-	margin: auto;
+	margin-right: 100px;
 }
 .sectionContent ul{
 	columns: 3;
@@ -150,5 +181,25 @@ section{
 	margin-top: -15px;
 }
 ul{
+	padding-left: 30px;
 	margin-bottom: 5px;
+	color: #444444;
+}
+
+.sectionTitledif > h1{
+	font-size: 20px;
+	padding-left: 38px;
+	color: #cf8a05;
+	font-weight: normal;
+	font-style: italic;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.sectionTitledif{
+	display: inline-block;
+}
+
+.segundoSemBorda{
+	border: none;
 }
